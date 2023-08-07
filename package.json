@@ -3,15 +3,17 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "serve -s dist",
     "build": "ng build",
+    "dev": "ng serve --open",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint"
   },
   "private": true,
     "engines": {
       "npm": ">=8.0.0 <9.0.0",
-      "node": ">=16.0.0 <19.0.0"
+      "node": ">=14.0.0 <19.0.0"
     },
   "dependencies": {
     "@angular/animations": "^14.0.0",
